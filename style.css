@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-image:linear-gradient(lightblue, lightpink,
+    yellow)
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px dotted #9ea8ff
+}
+#bio{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgba(36, 166, 253, 0.829);
+}
+.menu{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    cursor: pointer;
+    position: fixed;
+
+}
+.links{
+    float:left;
+    padding: 7px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.links:hover{
+    background-color: yellow;
+    border-radius: 100px;
+}
